@@ -5,11 +5,6 @@ SRC = $(wildcard py_file/*.py)        # tous les fichiers Python du dossier py_f
 VENV = venv                           # nom du dossier de l'environnement virtuel
 TESTS = tests                         # dossier contenant tes tests
 
-# =========================
-# Règles principales
-# =========================
-
-# Par défaut : lancer le programme principal
 all: run
 
 # venv -> dossier isolé où Python installe ses propres librairies
